@@ -2,12 +2,12 @@
 
 ### Steps to use
 
-1. Clone code
+#### 1. Clone code
 ```
 https://github.com/kapil019/spring-boot-rest-api
 ```
 
-2. Crete Database 
+#### 2. Crete Database 
 ```
 CREATE database test;
 CREATE TABLE `user` (
@@ -19,18 +19,18 @@ CREATE TABLE `user` (
 );
 ```
 
-3. Rename property file
+#### 3. Rename property file
 ```
 mv src/main/resources/application.properties.sample src/main/resources/application.properties
 ```
-4. Update db details in property file src/main/resources/application.properties
+#### 4. Update db details in property file src/main/resources/application.properties
 
-5. Run project
+#### 5. Run project
 
 
 ### API's
 
-1. Add new user
+#### 1. Add new user
 ```
 POST http://localhost:8080/user/add
 
@@ -48,7 +48,7 @@ Response
 }
 ```
 
-2. Update user 
+#### 2. Update user 
 
 ```
 PUT: http://localhost:8080/user/3
@@ -67,7 +67,7 @@ Response
 }
 ```
 
-3. Fetch all users
+#### 3. Fetch all users
 ```
 GET: http://localhost:8080/user/all
 
@@ -90,7 +90,7 @@ Response
 }
 ```
 
-4. Fetch user by ID
+#### 4. Fetch user by ID
 ```
 GET: http://localhost:8080/user/1
 
@@ -109,7 +109,7 @@ Response
 
 ```
 
-4. Delete user by ID
+#### 5. Delete user by ID
 ```
 DELETE: http://localhost:8080/user/1
 
